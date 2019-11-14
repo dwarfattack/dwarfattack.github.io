@@ -2,7 +2,7 @@ docs_list_title: KJBlog
 
 docs:
 - title: Home
-  url: /
+  url: 
 - title: about
   url: /about.html
 - title: blog
