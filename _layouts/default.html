@@ -37,8 +37,15 @@
     </header>
 
     <main id="content" class="main-content" role="main">
-      {% include navigation.html %} <!-- Not sure what this does  -->
-<!--       This is the navigation from https://jekyllrb.com/tutorials/navigation/#scenario-6-applying-the-active-class-for-the-current-page -->
+<!--       {% include navigation.html %} Include navigation pane  -->
+<!--   Lets not worry about this includes for now         -->
+      <h2>{{ site.data.samplelist.docs_list_title }}</h2>
+<ul>
+   {% for item in site.data.samplelist.docs %}
+      <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+   {% endfor %}
+</ul>
+      
       {{ page.url }}
       {{ content }}
 
