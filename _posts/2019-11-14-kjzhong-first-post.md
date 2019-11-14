@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "kjzhong - launch site, first post"
+author: Kevin
 date: 2019-11-14
 --- 
 
