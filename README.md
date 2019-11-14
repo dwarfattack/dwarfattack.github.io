@@ -35,3 +35,7 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 ### Support or Contact
 
 Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+
+### Netlify Deploy Status Badge
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/8eb300ad-189f-40dd-a988-d7aab479e1b9/deploy-status)](https://app.netlify.com/sites/nifty-noyce-342fef/deploys)
