@@ -1,4 +1,5 @@
 // I shouldn't have to use this
+// This is to have the cayman theme, but also be able to configure it to my own website.
 
 
 @import "normalize";
@@ -36,6 +37,14 @@ body {
   line-height: 1.5;
   color: $body-text-color;
 }
+
+
+#Colour active subdomains
+#https://jekyllrb.com/tutorials/navigation/#scenario-6-applying-the-active-class-for-the-current-page
+.result li.active a {
+    color: lightgray;
+    cursor: default;
+  }
 
 #skip-to-content {
   height: 1px;
