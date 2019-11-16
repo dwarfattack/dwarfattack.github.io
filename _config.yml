@@ -2,7 +2,7 @@ name: Kevin Zhong
 author: Kevin Zhong
 github: dwarfattack
 title: Kevin Zhong's Blog
-description: A diary for my progress through life and thoughts.
+description: A diary.
 theme: jekyll-theme-cayman
 permalink: /blog/:year/:month/:day/:title
 repository: dwarfattack/dwarfattack.github.io
