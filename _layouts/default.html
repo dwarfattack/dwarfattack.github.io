@@ -39,10 +39,8 @@
     </header>
 
     <main id="content" class="main-content" role="main">
-    {% include navigation.html %}
-      {{ page.url }}
+      <nav>{% include navigation.html %}</nav>
       {{ content }}
-      <p> item.url goes before page.url </p>
 
       <footer class="site-footer">
         {% if site.github.is_project_page %}
