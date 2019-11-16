@@ -6,9 +6,8 @@
   {% endfor %}
 </nav> -->
 
-<h2>{{ site.data.samplelist.docs_list_title }}</h2>
 {% for item in site.data.samplelist.docs %}
-<b>{{item.url}} </b>
+<!-- <b>{{item.url}} </b> -->
     <li class="{% if item.url == page.url %}active{% endif %}">
       <a href="{{ item.url }}">{{ item.title }}</a>
     </li>
