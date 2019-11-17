@@ -1,10 +1,11 @@
 ---
----
 // f you'd like to change the theme's Sass variables, you must set new values before the @import line in your stylesheet.
-@import "{{ site.theme }}";
 // Add any custom CSS (or Sass, including imports) you'd like immediately after the @import line
+---
+@import "{{ site.theme }}";
 body {background-color: coral;}
 .result li.active a {
     color: lightgray;
     cursor: default;
   }
+
