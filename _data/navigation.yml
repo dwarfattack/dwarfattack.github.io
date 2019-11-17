@@ -1,9 +1,9 @@
 
 docs:
 
-- name: Home
-  link: /
-- name: about
-  link: /about
-- name: blog
-  link: /blog/
+- title: Home
+  url: /
+- title: about
+  url: /about
+- title: blog
+  url: /blog/
