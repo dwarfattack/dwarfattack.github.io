@@ -1,27 +1,8 @@
-<!-- <nav>
-  {% for item in site.data.navigation.docs %}
-    <a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>{{ item.name }}</a>
-  {% endfor %}
-</nav>
- -->
-
-
-
 {% for item in site.data.navigation.docs %}
-    <li class="<% 'active' if item.link == page.url %>">
-      <a href="{{ item.link }}">{{ item.name }}</a>
+    <li class="{% if item.url == page.url %}active{% endif %}">
+      <a href="{{ item.url }}">{{ item.title }}</a>
     </li>
 {% endfor %}
-
-{% for item in site.data.navigation.docs %}
-	item.classList.contains("active")
-{% endfor %}
-
-<!-- {% for item in site.data.navigation.docs %}
-    <li class="{% if item.link == page.url %}active{% endif %}">
-      <a href="{{ item.link }}">{{ item.name }}</a>
-    </li>
-{% endfor %} -->
 
 {{ page.url }}
 
