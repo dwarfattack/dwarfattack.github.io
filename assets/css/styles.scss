@@ -1,8 +1,4 @@
 ---
 ---
-@import "main";
 
-.result li.active a {
-    color: lightgray;
-    cursor: default;
-  }
+@import "{{ site.theme }}";
