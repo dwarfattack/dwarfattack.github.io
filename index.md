@@ -4,7 +4,7 @@ title: About Me
 order: 1
 ---
 
-# Hi There, I'm Kevin Zhong!
+# Hi There, I'm a blog!
 
 Lorem ipsum dolor sit amet, purto tractatos inciderint an mel. Ut sed dico munere. No atqui civibus expetendis mea. Ne ferri oblique recteque pri.
 
