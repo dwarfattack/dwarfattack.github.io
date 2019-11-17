@@ -1,7 +1,7 @@
-name: Kevin Zhong
-author: Kevin Zhong
-github: dwarfattack
-title: Kevin Zhong's Blog
+name: kjzhong
+author: kjzhong
+# github: dwarfattack
+title: kjblog
 description: A diary.
 theme: jekyll-theme-cayman
 permalink: /blog/:year/:month/:day/:title
