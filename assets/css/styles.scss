@@ -3,9 +3,9 @@
 # Add any custom CSS (or Sass, including imports) you'd like immediately after the @import line
 ---
 @import "{{ site.theme }}";
-body {background-color: coral;}
+body {background-color: Chartreuse;}
 .result li.active a {
-    color: lightgray;
+    color: Chartreuse;
     cursor: default;
   }
 
