@@ -2,7 +2,7 @@ name: kjzhong
 author: kjzhong
 # github: dwarfattack
 title: kjblog
-description: A diary.
+description: This website is still in very early development. Please be patient with me while I work on it!
 theme: jekyll-theme-cayman
 permalink: /blog/:year/:month/:day/:title
 repository: dwarfattack/dwarfattack.github.io
