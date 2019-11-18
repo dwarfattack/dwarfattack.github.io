@@ -1,0 +1,10 @@
+docs_list_title:
+
+docs:
+- title: Home
+  url: /
+- title: about
+  url: /about
+- title: blog
+  url: /blog
+

@@ -1,7 +1,6 @@
-{% for item in site.data.navigation.docs %}
+{% for item in site.data.samplelist.docs %}
     <li class="{% if item.url == page.url %}active{% endif %}">
       <a href="{{ item.url }}">{{ item.title }}</a>
-      <p>{{ item.url }}</p>
     </li>
 {% endfor %}
 
