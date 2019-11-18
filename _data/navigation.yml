@@ -3,7 +3,7 @@ docs:
 - title: Home
   url: /
 - title: about
-  url: /about
+  url: /about.html
 - title: blog
-  url: /blog
+  url: /blog.html
 ---
