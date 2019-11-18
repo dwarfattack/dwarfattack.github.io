@@ -1,3 +1,4 @@
+---
 docs:
 - title: Home
   url: /
@@ -5,3 +6,4 @@ docs:
   url: /about
 - title: blog
   url: /blog
+---
