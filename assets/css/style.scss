@@ -4,9 +4,6 @@
 ---
 @import "{{ site.theme }}";
 .result li.active a {
-    color: Aqua;
+    background-color: Salmon;
     cursor: default;
   }
-body {
-  background-color: Salmon;
-}
