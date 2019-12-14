@@ -4,7 +4,6 @@
     </li>
 {% endfor %}
 
+{% if jekyll.environment == "development" %}
 {{ page.url }}
-
-
-
+{% endif %}
