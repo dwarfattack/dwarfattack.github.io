@@ -8,6 +8,7 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 Create pagination for blog posts
 Goal is to set up a way to interact only with the .md files
+Fix analytics
 
 ### Markdown
 
