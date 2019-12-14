@@ -3,12 +3,10 @@ layout: default
 title: Kevin Zhong's Blog
 ---
 
-
+<!-- There's two blog indexes. One is /blog/, other is blog.html -->
 
 	<h1>{{ page.title }}</h1>
 	<ul class="posts">
-		<h3>Is this page lost lmao
-		I don't know where this file is anymore lmao </h3>
 	  {% for post in site.posts %}
 	    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
 	  {% endfor %}

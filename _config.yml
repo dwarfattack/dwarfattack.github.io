@@ -8,8 +8,28 @@ permalink: /blog/:year/:month/:day/:title
 repository: dwarfattack/dwarfattack.github.io
 include: [_redirects, _config.yml]
 url: kjzhong.me
+google_analytics: UA-154561016-1
 
 plugins:
   - jekyll-sitemap
   - github-pages
 
+collections:
+  authors:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "authors"
+    values:
+      layout: "author"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "default"

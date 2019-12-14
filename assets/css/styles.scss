@@ -3,14 +3,24 @@
 # Add any custom CSS (or Sass, including imports) you'd like immediately after the @import line
 ---
 @import "{{ site.theme }}";
-.active {
-    background-color: Salmon;
-    color: aqua;
+@import "main";
+
+// .active {
+//     background-color: Salmon;
+//     color: aqua;
+//     cursor: default;
+//   }
+.active a {
+    color: red;
     cursor: default;
   }
-body {
-  background-color: lightblue;
+
+@if {{ jekyll.environment }} == "development"{
+	body {
+	  background-color: lightblue;
+	}
 }
+
 
 // .result li.active a {
 //     background-color: Salmon;

@@ -1,9 +1,12 @@
+// Not sure what this does right now
+// Still imported into css/styles.scss but not doing anything?
+
 .current {
   color: green;
 }
 
 
-.result li.active a {
+.active a {
     color: lightgray;
     cursor: default;
   }

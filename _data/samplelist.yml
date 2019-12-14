@@ -6,5 +6,7 @@ docs:
 - title: about
   url: /about
 - title: blog
-  url: /blog
+  url: /blog/
+- title: Staff
+  url: /staff
 
